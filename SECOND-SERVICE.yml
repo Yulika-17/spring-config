@@ -5,9 +5,3 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
-
-logging:
-  level:
-    org.springframework.web: DEBUG
-    org.springframework.web.servlet: DEBUG
-    com.example.second.controllers: DEBUG
