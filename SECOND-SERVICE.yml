@@ -9,8 +9,3 @@ eureka:
 first-service:
   url: ${FIRST_SERVICE_URL:http://localhost}
   port: ${FIRST_SERVICE_PORT:8081}
-
-logging:
-  level:
-    com.netflix.loadbalancer: DEBUG
-    com.netflix.client: DEBUG
