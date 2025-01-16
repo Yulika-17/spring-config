@@ -12,4 +12,5 @@ first-service:
 
 logging:
   level:
-    org.springframework.web: DEBUG
+    com.netflix.loadbalancer: DEBUG
+    com.netflix.client: DEBUG
