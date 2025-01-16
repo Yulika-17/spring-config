@@ -1,5 +1,5 @@
 server:
-  port: 23595
+  port: 23590
 
 eureka:
   client:
